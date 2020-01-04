@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sirfeespaid">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="ID"
+            android:textSize="18dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Session"
+                android:textColor="#1E88E5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/e1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="April/May"
+                android:textSize="20sp"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Amount"
+                android:textColor="#1E88E5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/e2"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="15500.00"
+                android:textSize="20sp"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Reciept No."
+                android:textColor="#1E88E5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/e3"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="c9/o/mf/19/8645"
+                android:textSize="20sp"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Date"
+                android:textColor="#1E88E5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/e4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="20/10"
+                android:textSize="20sp"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Fees Type"
+                android:textColor="#1E88E5"
+                android:gravity="left|center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/e5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Mess fees"
+                android:textSize="20sp"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/back"
+            android:text="Done"
+            android:textColor="#fff"
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+</FrameLayout>

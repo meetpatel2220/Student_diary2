@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/sirhome"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/sirattendance"
+        android:icon="@drawable/attendance"
+        android:title="Attendance" />
+    <item
+        android:id="@+id/sirnotification"
+        android:icon="@drawable/notification"
+        android:title="Notification" />
+    <item
+        android:id="@+id/sirresult"
+        android:icon="@drawable/result"
+        android:title="Result" />
+    <item
+        android:id="@+id/sirinternalmarks"
+        android:icon="@drawable/result"
+        android:title="Internal marks" />
+    <item
+        android:id="@+id/sirfeespaid"
+        android:icon="@drawable/feespaid"
+        android:title="Fees Paid" />
+    <item
+        android:id="@+id/sirclassschedule"
+        android:icon="@drawable/classschedule"
+        android:title="Class Schedule" />
+
+
+    </group>
+
+</menu>

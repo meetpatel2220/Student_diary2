@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/attendance"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/notification"
+            android:title="Notification" />
+        <item
+            android:id="@+id/result"
+            android:icon="@drawable/result"
+            android:title="Result" />
+        <item
+            android:id="@+id/internalmarks"
+            android:icon="@drawable/result"
+            android:title="Internal marks" />
+        <item
+            android:id="@+id/feespaid"
+            android:icon="@drawable/feespaid"
+            android:title="Fees Paid" />
+        <item
+            android:id="@+id/classschedule"
+            android:icon="@drawable/classschedule"
+            android:title="Class Schedule" />
+        <item
+            android:id="@+id/changepassword"
+            android:icon="@drawable/changepassword"
+            android:title="Change Password" />
+
+
+
+    </group>
+
+
+
+</menu>

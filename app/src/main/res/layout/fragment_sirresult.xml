@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sirresult">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FCF9F9"
+            >
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MITKUMAR DILIPKUMAR PATEL"
+                android:textSize="18dp"
+                android:textColor="#1E88E5"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:hint="ID"
+                android:textSize="18dp"
+
+                />
+
+            <Button
+
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:text="Done"
+                android:textSize="18dp"
+                android:background="#1E88E5"
+android:textColor="#fff"
+
+
+                />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:padding="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:text="MG101 ENGLISH-1"
+                        android:textSize="18sp"
+                        android:textColor="#fff"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/engo"
+                            android:layout_marginLeft="31dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/enc"
+                            android:layout_marginLeft="31dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp"
+
+                    >
+
+
+                    <TextView
+                        android:padding="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:text="MM101 MATHEMATICS - 1"
+                        android:textSize="18sp"
+                        android:textColor="#fff"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/mgo"
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/mc"
+                            android:layout_marginLeft="34dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MN101 ENVIRONMENTAL SCIENCE"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/ego"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="31dp"
+                            android:textColor="#6B6868"
+                            android:textSize="18sp" />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/ec"
+                            android:layout_marginLeft="31dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MP101 PHYSICS - 1"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/phgo"
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/phc"
+                            android:layout_marginLeft="34dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MP101 PHYSICS - 1(PRAC.)"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/phpgo"
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/phpc"
+                            android:layout_marginLeft="34dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MC101 CHEMISTRY - 1"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/chgo"
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/chc"
+                            android:layout_marginLeft="34dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MC101 CHEMISTRY - 1(PRAC.)"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/chpgo"
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/chpc"
+                            android:layout_marginLeft="34dp"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

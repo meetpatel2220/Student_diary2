@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FCF9F9"
+            >
+
+
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#1E88E5"
+                android:textStyle="bold"
+                />
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:padding="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:text="MG101 ENGLISH-1"
+                        android:textSize="18sp"
+                        android:textColor="#fff"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/engo"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            android:layout_gravity="center"
+                            />
+
+                        <TextView
+                            android:id="@+id/enc"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="#6B6868"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:id="@+id/c2"
+
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp"
+
+                    >
+
+
+                    <TextView
+                        android:padding="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:text="MM101 MATHEMATICS - 1"
+                        android:textSize="18sp"
+                        android:textColor="#fff"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:layout_gravity="center"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/mgo"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:layout_gravity="center"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/mc"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:id="@+id/c3"
+
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MN101 ENVIRONMENTAL SCIENCE"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/ego"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+
+                            android:layout_height="50dp"
+                            android:textColor="#6B6868"
+                            android:textSize="18sp" />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/ec"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:gravity="left|center"
+
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:id="@+id/c4"
+
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MP101 PHYSICS - 1"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/phgo"
+                            android:layout_width="0dp"
+                            android:gravity="left|center"
+
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/phc"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:id="@+id/c5"
+
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MP101 PHYSICS - 1(PRAC.)"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/phpgo"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:layout_height="50dp"
+
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/phpc"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:id="@+id/c6"
+
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MC101 CHEMISTRY - 1"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/chgo"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+
+                            android:gravity="left|center"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/chc"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+
+                            android:layout_gravity="center"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="16dp"
+                android:id="@+id/c7"
+
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="100dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#1E88E5"
+                        android:padding="7dp"
+                        android:text="MC101 CHEMISTRY - 1(PRAC.)"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Grade Obtain"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/chpgo"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+
+                            android:layout_gravity="center"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1E88E5"
+                            android:text="Credit            "
+                            android:textSize="18dp"
+                            android:layout_marginLeft="18dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/chpc"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+
+                            android:layout_gravity="center"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:textColor="#6B6868"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.core.widget.NestedScrollView>
+

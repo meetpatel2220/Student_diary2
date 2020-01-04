@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sirattendance">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:text="MR.mandaliya"
+            android:textColor="#1E88E5"
+            android:layout_marginLeft="20dp"
+            />
+
+<EditText
+    android:id="@+id/id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_margin="10dp"
+    android:hint="ID"
+    android:textSize="18dp"
+
+    />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="              "
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+                />
+            <LinearLayout
+                android:layout_marginLeft="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Your "
+                    android:textColor="#1E88E5"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attendance"
+                    android:textColor="#1E88E5"
+                    android:textSize="20sp"
+
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Total "
+                    android:textColor="#1E88E5"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Class"
+                    android:textColor="#1E88E5"
+
+                    />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculus"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+            <EditText
+                android:layout_marginLeft="70dp"
+android:id="@+id/cy"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+            <EditText
+                android:layout_marginLeft="30dp"
+                android:id="@+id/ct"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="        "
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M. Physics"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+            <EditText
+                android:layout_marginLeft="50dp"
+                android:id="@+id/my"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+            <EditText
+
+                android:layout_marginLeft="30dp"
+                android:id="@+id/mt"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F.C.P.         "
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+            <EditText
+                android:layout_marginLeft="50dp"
+                android:id="@+id/fy"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+            <EditText
+                android:layout_marginLeft="30dp"
+                android:id="@+id/ft"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Em. Physics"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+            <EditText
+                android:layout_marginLeft="40dp"
+                android:id="@+id/ey"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+            <EditText
+                android:layout_marginLeft="30dp"
+                android:id="@+id/et"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English      "
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+            <EditText
+                android:layout_marginLeft="50dp"
+                android:id="@+id/eny"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="        "
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+            <EditText
+                android:layout_marginLeft="30dp"
+                android:id="@+id/ent"
+
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="#1E88E5"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+      
+            <Button
+                android:id="@+id/b1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Done"
+                android:textSize="18dp"
+              android:background="@drawable/back"
+                android:textColor="#fff"
+
+                />
+
+
+      
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sirattendance">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="MR. Mandaliya"
+            android:textColor="#1E88E5"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_marginRight="10dp"
+            android:hint="ID"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id"
+            android:layout_marginRight="41dp"
+            android:layout_toLeftOf="@+id/text3"
+            android:text="      Your\nAttendance"
+            android:textColor="#1E88E5"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:text="Total\nClass"
+            android:textColor="#1E88E5"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:text="Calculus"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/cy"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/ct"
+                android:textColor="#1E88E5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/ct"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text4"
+                android:layout_marginTop="20dp"
+                android:text="M. Physics"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/my"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cy"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/ct"
+                android:textColor="#1E88E5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/mt"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ct"
+                android:layout_alignParentRight="true"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text5"
+                android:layout_marginTop="20dp"
+                android:text="F.C.P"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/fy"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/ct"
+                android:textColor="#1E88E5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/ft"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mt"
+                android:layout_alignParentRight="true"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text6"
+                android:layout_marginTop="20dp"
+                android:text="Em. Physics"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/ey"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fy"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/ct"
+                android:textColor="#1E88E5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ft"
+                android:layout_alignParentRight="true"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text7"
+                android:layout_marginTop="20dp"
+                android:text="English"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/eny"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ey"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/ct"
+                android:textColor="#1E88E5"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/ent"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et"
+                android:layout_alignParentRight="true"
+                android:textColor="#1E88E5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#000"
+            android:gravity="center"
+            android:text="Done"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+</FrameLayout>

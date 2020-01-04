@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/name"
+            android:backgroundTint="#1E88E5"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/idno"
+            android:padding="10dp"
+            android:backgroundTint="#1E88E5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID. no"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#1E88E5"
+            android:id="@+id/mobileno"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile no"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/branch"
+            android:backgroundTint="#1E88E5"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Branch"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/degree"
+            android:backgroundTint="#1E88E5"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Degree"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/semester"
+            android:backgroundTint="#1E88E5"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Semester"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/fathername"
+            android:backgroundTint="#1E88E5"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father name"
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/mothername"
+            android:backgroundTint="#1E88E5"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mother name"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/hostelname"
+            android:padding="10dp"
+            android:backgroundTint="#1E88E5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hostel name"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/hostelroom"
+            android:padding="10dp"
+            android:backgroundTint="#1E88E5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hostel room"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/gender"
+            android:padding="10dp"
+            android:backgroundTint="#1E88E5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gender"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/dob"
+            android:padding="10dp"
+            android:backgroundTint="#1E88E5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/category"
+            android:padding="10dp"
+            android:backgroundTint="#1E88E5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category"
+            android:textSize="20sp"
+            />
+
+<Button
+    android:id="@+id/b1"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back1"
+    android:text="Done"
+    android:textSize="25dp"
+    android:textColor="#fff"
+    />
+
+
+    </LinearLayout>
+        </RelativeLayout>
+
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>
